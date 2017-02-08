@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+}
+body {
+	background-color: #f0f3f3;
+	font-family:"宋体", "微软雅黑", "arial";
+}
+
+
+.animation-map {
+	float: left;
+	width: 33%;
+	height: 200px;
+	position: relative;
+    border: 1px solid red;
+}
+.animation-map2 {
+	float: left;
+	width: 33%;
+	height: 200px;
+	position: relative;
+    border: 1px solid red;
+}
+.animation-map3 {
+	float: left;
+	width: 33%;
+	height: 200px;
+	position: relative;
+    border: 1px solid red;
+}
+.animation-map4 {
+	float: left;
+	width: 33%;
+	height: 200px;
+	position: relative;
+    border: 1px solid red;
+}
