@@ -1,26 +1,4 @@
 var animationMap = new AnimationMap('animationMap');
-var loadingLayer = new LoadingLayer('loadingLayer', {
-    zIndex: 2,
-    opacity: 1
-});
-
-
-var animationMap2 = new AnimationMap('animationMap2');
-var progressLayer = new ProgressLayer('progressLayer', {
-    zIndex: 1,
-    datas: {
-        total_step: 3,
-        now_step: 2,
-        tips: [
-            [{'text': '哈哈1'},{'text': '哈哈11'}],
-            [{'text': '哈哈2'}],
-            [{'text': '哈哈3'}],
-            [{'text': '哈哈4'}]
-        ]
-    }
-});
-
-var animationMap3 = new AnimationMap('animationMap3');
 var textLayer = new TextLayer('textLayer', {
     zIndex: 2,
     opacity: 1,
@@ -56,16 +34,10 @@ var textLayer = new TextLayer('textLayer', {
 
 
 
-animationMap.addLayer(loadingLayer);
-
-animationMap2.addLayer(progressLayer);
-
-animationMap3.addLayer(textLayer);
+animationMap.addLayer(textLayer);
 
 
 
 window.onresize = function() {
     animationMap.reSize();
-    animationMap2.reSize();
-    animationMap3.reSize();
 };
