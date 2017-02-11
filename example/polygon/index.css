@@ -13,11 +13,9 @@ body {
 
 
 .animation-map {
-	margin: 0 auto;
-	margin-top: 100px;
-	width: 2.72rem;
-	height: .88rem;
-	background-color: rgba(0,14,12,.7);
+	float: left;
+	width: 33%;
+	height: 200px;
 	position: relative;
-    border-radius: 4px;
+    border: 1px solid red;
 }

@@ -1,5 +1,5 @@
 var animationMap = new AnimationMap('animationMap');
-var textLayer = new TextLayer('textLayer', {
+var textLayer = new COMTextLayer('textLayer', {
     zIndex: 2,
     opacity: 1,
     datas: {

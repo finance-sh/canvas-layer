@@ -1,8 +1,5 @@
 var animationMap = new AnimationMap('animationMap');
-var loadingLayer = new LoadingLayer('loadingLayer', {
-    zIndex: 2,
-    opacity: 1
-});
+var loadingLayer = new LoadingLayer('loadingLayer');
 
 
 animationMap.addLayer(loadingLayer);
