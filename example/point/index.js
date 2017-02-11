@@ -28,10 +28,6 @@ var pointLayer = new COMPointLayer('pointLayer', {
         ]
     }
 });
-
-
-
-
 animationMap.addLayer(pointLayer);
 
 

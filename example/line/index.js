@@ -30,10 +30,6 @@ var lineLayer = new COMLineLayer('lineLayer', {
         ]
     }
 });
-
-
-
-
 animationMap.addLayer(lineLayer);
 
 

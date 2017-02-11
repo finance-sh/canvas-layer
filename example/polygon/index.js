@@ -36,10 +36,6 @@ var polygonLayer = new COMPolygonLayer('polygonLayer', {
         ]
     }
 });
-
-
-
-
 animationMap.addLayer(polygonLayer);
 
 
